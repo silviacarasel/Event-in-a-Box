@@ -1,6 +1,6 @@
 # 📦 Event-in-a-Box
 
-An AI event planning agent that generates a complete ops package from a single brief — run-of-show, outreach emails, social posts, budget, venue research, and more.
+An AI event planning agent that generates a complete ops package from a single brief: run-of-show, outreach emails, social posts, budget, venue research, and more.
 
 Built for [Claude Code](https://docs.anthropic.com/en/docs/claude-code).
 
@@ -12,15 +12,15 @@ Describe your event → answer a few questions → get ready-to-use deliverables
 
 **Personal events** (birthdays, dinners, celebrations) get 10 adapted deliverables with a warmer tone.
 
-The agent acts as a coach — it surfaces things you'd forget, flags timeline risks, and adapts everything to your event format and budget.
+The agent acts as a coach, it surfaces things you'd forget, flags timeline risks, and adapts everything to your event format and budget.
 
 ## How to use
 
 **Prerequisites:** [Claude Code](https://docs.anthropic.com/en/docs/claude-code) installed + Claude Pro subscription.
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/event-in-a-box.git
-cd event-in-a-box
+git clone https://github.com/silviacarasel/Event-in-a-Box.git
+cd Event-in-a-Box
 claude
 ```
 
@@ -36,7 +36,7 @@ The agent will walk you through the intake, ask where you want deliverables (Not
 ## Files
 
 ```
-event-in-a-box/
+Event-in-a-Box/
 ├── CLAUDE.md              ← The agent brain (all instructions)
 ├── README.md              ← You're reading this
 ├── output/                ← Generated deliverables land here
